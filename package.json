@@ -16,6 +16,8 @@
   "devDependencies": {
     "docpad-plugin-eco": "~2.0.3",
     "docpad-plugin-livereload": "~2.5.4",
-    "docpad-plugin-stylus": "~2.5.0"
+    "docpad-plugin-stylus": "~2.5.0",
+    "docpad-plugin-repocloner": "~2.2.1",
+    "docpad-plugin-marked": "~2.1.2"
   }
 }
