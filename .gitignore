@@ -5,3 +5,5 @@ archive/
 node_modules/
 out/
 src/documents/
+
+.docpad.db
