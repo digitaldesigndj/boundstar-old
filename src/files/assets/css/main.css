@@ -95,3 +95,10 @@ hr {
 	display: block;
 	margin: 60px;
 }
+
+.chat p {
+	line-height: 10px;
+	margin-bottom: 0;
+	font-size: 10px;
+	text-align: left;
+}
