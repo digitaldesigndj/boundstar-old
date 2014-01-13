@@ -29,6 +29,11 @@
 		<%- @content %>
 	</div>
 
+<div class="navigation">
+	<a href="/">Home</a>
+	<a href="/server.html">Commands</a>
+</div>
+
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="http://boundstar.com:8080/primus/primus.js"></script>
 	<!--BACKSTRETCH-->
