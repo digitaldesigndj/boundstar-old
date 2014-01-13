@@ -28,9 +28,15 @@
 		<%- @content %>
 	</div>
 
+
 <div class="navigation">
-	<a href="/">Home</a>
-	<a href="/server.html">Commands</a>
+	<% for page in @getCollection("html").toJSON(): %>
+		<% if page.navigation isnt false: %>
+			<a href="<%= page.url %>" class="<%= if page.id is @document.id then 'active' else 'inactive' %>"><%= page.title %></a>
+		<% end %>
+	<% end %>
+<!-- 	<a href="/">Home</a>
+	<a href="/server.html">Commands</a> -->
 </div>
 
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
