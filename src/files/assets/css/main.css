@@ -1,14 +1,14 @@
 body {
 	background-color: black;
 /*	font-family: 'VT323', sans-serif; */
-    font-family: '04b03';
-    font-weight: 400;
-    font-size: 16px;
-    color: #fdfdfd;
-    text-align: center;
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
-    margin:0;
+	font-family: '04b03';
+	font-weight: 400;
+	font-size: 16px;
+	color: #fdfdfd;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	margin:0;
 }
 
 img {
@@ -17,14 +17,14 @@ img {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    color: #fdfdfd;
+	color: #fdfdfd;
 }
 
 /* Paragraph & Typographic */
 p, li, blockquote {
-    line-height: 28px;
-    margin-bottom: 25px;
-    font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 25px;
+	font-size: 20px;
 }
 
 li {
@@ -37,44 +37,44 @@ ul {
 }
 /* Links */
 a {
-    color: #fdfdfd;
-    word-wrap: break-word;
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+	color: #fdfdfd;
+	word-wrap: break-word;
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 a:hover,
 a:focus {
-    color: #2883d1;
-    text-decoration: none;
-    outline: 0;
+	color: #2883d1;
+	text-decoration: none;
+	outline: 0;
 }
 
 a:before,
 a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 h1 {
 	font-size: 70px;
 	margin: 0 30px;
 }
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
 }
 
 .centered {
-    text-align: center;
+	text-align: center;
 }
 
 .logo {
@@ -102,3 +102,35 @@ hr {
 	font-size: 10px;
 	text-align: left;
 }
+
+.navigation {
+	position: fixed;
+	left: 0;
+	bottom: 10px;
+	width: 180px;
+}
+.navigation a {
+	margin-bottom: 3px;
+	text-decoration: none;
+	float: left;
+	display: block;
+	background: url(/assets/img/buttonsprite.png);
+	height: 16px;
+	width: 160px;
+	padding: 3px 10px;
+	text-align: left;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+.navigation a:hover {
+	color: white;
+	background-position: 0 -22px;
+}
+
+
+
+
+
