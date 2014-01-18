@@ -6,6 +6,20 @@ docpadConfig = {
 	# ...
 	port: process.env.PORT|81
 
+	templateData:
+		scripts: [
+			'http://code.jquery.com/jquery-1.10.2.min.js'
+			'assets/js/jquery.backstretch.min.js'
+			'http://boundstar.com:8080/primus/primus.js'
+			'/js/websocket.js'
+			'/js/background.js'
+		]
+		styles: [
+			# '/style/main.css'
+			# '//fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic'
+			'//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'
+		]
+
 	plugins:
 		repocloner:
 			repos: [
