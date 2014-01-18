@@ -39,5 +39,6 @@
 	<a href="/server.html">Commands</a> -->
 </div>
 	<%- @getBlock('scripts').add(@scripts).toHTML() %>
+	<script defer="defer" src="/js/profiles.js"></script>
 </body>
 </html>
